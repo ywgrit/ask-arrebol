@@ -10,11 +10,6 @@ body {
     height: 100vh;
 }
 
-/* body { */
-/*     background-image: url("images/arrebol-metro.jpg"); /* 新增背景图片路径 */ */
-/*     background-color: #cccccc; */
-/* } */
-
 .container {
     width: 90%; /* 适应手机屏幕宽度 */
     max-width: 500px; /* 最大宽度限制 */
