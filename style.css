@@ -113,42 +113,36 @@ button {
         width: 300px; /* 固定图片宽度 */
     }
 }
-
 /* 移动端专属优化（max-width: 767px） */
 @media (max-width: 767px) {
-    body {
-        display: block;
-    }
+  .container {
+    width: 95%;
+    padding: 0 10px;
+  }
 
-    .container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: auto;
-        max-width: none;
-    }
+  h1 {
+    font-size: clamp(24px, 6vw, 32px);
+    margin: 15px 0;
+  }
 
-    #mainImage {
-        width: 100px; /* 固定图片宽度 */
-    }
+  button {
+    font-size: clamp(16px, 4.5vw, 20px);
+    padding: 12px 24px;
+    margin: 8px;
+  }
 
-    h1 {
-        font-size: 28px; /* 固定字体大小 */
-        margin: 20px 0;
-    }
+  #mainImage {
+    max-width: 180px;
+  }
 
-    button {
-        font-size: 18px; /* 固定字体大小 */
-    }
+  .yes-text {
+    font-size: clamp(28px, 7vw, 36px);
+  }
 
-    .yes-text {
-        font-size: 36px; /* 固定字体大小 */
-    }
+  .yes-image {
+    max-width: 250px;
+  }
 
-    .yes-image {
-        width: 300px; /* 固定图片宽度 */
-    }
   /* 横屏适配 */
   @media (orientation: landscape) {
     .container {
