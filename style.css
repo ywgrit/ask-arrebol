@@ -1,13 +1,15 @@
 body {
-    background-color: #f1d5da; /* 浅粉色 */
-    text-align: center;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-image: url("images/arrebol-metro.jpg"); /* 新增背景图片 */
+    background-color: #cccccc;
+    /* background-color: #f1d5da; /* 浅粉色 */
+    /* text-align: center; */
+    /* font-family: Arial, sans-serif; */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
 }
 
 /* body { */
@@ -110,4 +112,47 @@ button {
     .yes-image {
         width: 300px; /* 固定图片宽度 */
     }
+}
+
+/* 移动端专属优化（max-width: 767px） */
+@media (max-width: 767px) {
+    body {
+        display: block;
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: auto;
+        max-width: none;
+    }
+
+    #mainImage {
+        width: 100px; /* 固定图片宽度 */
+    }
+
+    h1 {
+        font-size: 28px; /* 固定字体大小 */
+        margin: 20px 0;
+    }
+
+    button {
+        font-size: 18px; /* 固定字体大小 */
+    }
+
+    .yes-text {
+        font-size: 36px; /* 固定字体大小 */
+    }
+
+    .yes-image {
+        width: 300px; /* 固定图片宽度 */
+    }
+  /* 横屏适配 */
+  @media (orientation: landscape) {
+    .container {
+      width: 80%;
+    }
+  }
 }
