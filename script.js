@@ -60,7 +60,7 @@ noButton.addEventListener("click", function () {
 // const loveTest = `!!! 比心 !! ( >᎑<)♡︎ᐝ  ${
 //   username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
 // }`;
-const loveTest = `!!! 比心 !! ( >᎑<)♡︎ᐝ♡︎ᐝ(>᎑< )` : ""`;
+const loveTest = `!!! 比心 !! ( >᎑<)♡︎ᐝ♡︎ᐝ(>᎑< )`;
 
 yesButton.addEventListener("click", function () {
   // 先创建基础 HTML 结构
