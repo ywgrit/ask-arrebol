@@ -57,9 +57,10 @@ noButton.addEventListener("click", function () {
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!! 比心 !! ( >᎑<)♡︎ᐝ  ${
-  username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
-}`;
+// const loveTest = `!!! 比心 !! ( >᎑<)♡︎ᐝ  ${
+//   username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
+// }`;
+const loveTest = `!!! 比心 !! ( >᎑<)♡︎ᐝ♡︎ᐝ(>᎑< )` : ""`;
 
 yesButton.addEventListener("click", function () {
   // 先创建基础 HTML 结构
