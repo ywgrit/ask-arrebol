@@ -17,13 +17,13 @@ if (username) {
 
 let clickCount = 0; // 记录点击 No 的次数
 
-// No 按钮的文字变化
+// No 按钮的文字变化😳😠😡
 const noTexts = [
-  "？你认真的吗…🥺",
-  "要不再想想？😡",
-  "不许选这个！😡 ",
-  "我会很伤心…🥺",
-  "不行:(",
+  "你手滑了，再给你次机会"
+  "arrebol, 你认真的吗…😟",
+  "不许选这个😠 ",
+  "再想想嘛🥺",
+  "你真的要选这个嘛",
 ];
 
 // No 按钮点击事件
@@ -49,11 +49,11 @@ noButton.addEventListener("click", function () {
   }
 
   // 图片变化（前 5 次变化）
-  if (clickCount === 1) mainImage.src = "images/shocked.png"; // 震惊
-  if (clickCount === 2) mainImage.src = "images/think.png"; // 思考
-  if (clickCount === 3) mainImage.src = "images/angry.png"; // 生气
-  if (clickCount === 4) mainImage.src = "images/crying.png"; // 哭
-  if (clickCount >= 5) mainImage.src = "images/crying.png"; // 之后一直是哭
+  if (clickCount === 1) mainImage.src = "images/wenhao-nobg.png"; // 疑问
+  if (clickCount === 2) mainImage.src = "images/meng-nobg.png"; // 萌
+  if (clickCount === 3) mainImage.src = "images/mad-nobg.png"; // 生气
+  if (clickCount === 4) mainImage.src = "images/tanqi-nobg.png"; // 叹气
+  if (clickCount >= 5) mainImage.src = "images/cry-nobg.png"; // 哭 之后一直是哭
 });
 
 // Yes 按钮点击后，进入表白成功页面
