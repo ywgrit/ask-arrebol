@@ -1,7 +1,19 @@
 body {
-    background-image: url("images/arrebol-metro.jpg"); /* 新增背景图片路径 */
-    background-color: #cccccc;
+    background-color: #f1d5da; /* 浅粉色 */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
+/* body { */
+/*     background-image: url("images/arrebol-metro.jpg"); /* 新增背景图片路径 */ */
+/*     background-color: #cccccc; */
+/* } */
 
 .container {
     width: 90%; /* 适应手机屏幕宽度 */
