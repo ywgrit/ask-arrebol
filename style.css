@@ -9,8 +9,11 @@
 /*     align-items: center; */
 /*     height: 100vh; */
 /* } */
+    /arrebol-metro.jpg
 body {
-    background-image: url('images/arrebol-metro.jpg'); /* 新增背景图片路径 */
+    /* background-image: url("paper.gif"); */
+    background-image: url("images/arrebol-metro.jpg"); /* 新增背景图片路径 */
+    background-color: #cccccc;
     background-size: cover;             /* 图片覆盖整个背景区域 */
     background-repeat: no-repeat;       /* 禁止重复平铺 */
     background-position: center;        /* 图片居中显示 */
