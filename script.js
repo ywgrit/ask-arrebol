@@ -19,7 +19,7 @@ let clickCount = 0; // 记录点击 No 的次数
 
 // No 按钮的文字变化😳😠😡
 const noTexts = [
-  "你手滑了，再给你次机会",
+  "你手滑了，再给你一次机会，不许再点这里了",
   "arrebol, 你认真的吗…😟",
   "不许选这个😠 ",
   "再想想嘛🥺",
@@ -49,7 +49,7 @@ noButton.addEventListener("click", function () {
   }
 
   // 图片变化（前 5 次变化）
-  if (clickCount === 1) mainImage.src = "images/wenhao-nobg.png"; // 疑问
+  if (clickCount === 1) mainImage.src = "images/buxie-nobg.png"; // 疑问
   if (clickCount === 2) mainImage.src = "images/meng-nobg.png"; // 萌
   if (clickCount === 3) mainImage.src = "images/mad-nobg.png"; // 生气
   if (clickCount === 4) mainImage.src = "images/tanqi-nobg.png"; // 叹气
