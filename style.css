@@ -1,15 +1,13 @@
 body {
-    background-image: url("images/arrebol-metro.jpg"); /* 新增背景图片 */
-    background-color: #cccccc;
-    /* background-color: #f1d5da; /* 浅粉色 */
-    /* text-align: center; */
-    /* font-family: Arial, sans-serif; */
-    /* margin: 0; */
-    /* padding: 0; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* height: 100vh; */
+    background-color: #f1d5da; /* 浅粉色 */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 /* body { */
